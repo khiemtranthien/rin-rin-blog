@@ -16,7 +16,7 @@ tags: azure aad
 2. Create an new app for BE API
     - No need to add any platform or specify redirect URL because this app is used for BE API
     - Go to **Expose an API** menu to create Application ID URI
-    - Add a new scope, give it a name, choose for Admins and users. Note down the full URL: api://<long id>/<scope name>, use it later in Angular app
+    - Add a new scope, give it a name, choose for Admins and users. Note down the full URL: `api://..long id../scope name`, use it later in Angular app
 3. Add permission for API app
     - Go back SPA app, choose **API permissions**
     - Add a permission. Choose My APIs tab. Choose your app and its permission.
@@ -26,9 +26,9 @@ tags: azure aad
 
 ## Create Angular app with MSAL v2 Authorization code
 
-[Angular single-page application (SPA) using auth code flow][https://docs.microsoft.com/en-us/azure/active-directory/develop/tutorial-v2-angular-auth-code]
+[Angular single-page application (SPA) using auth code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/tutorial-v2-angular-auth-code)
 
-[MSAL Browser][https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-browser]
+[MSAL Browser](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/lib/msal-browser)
 is version 2 supports Authorization code
 
 ```
