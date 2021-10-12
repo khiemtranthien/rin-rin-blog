@@ -198,4 +198,4 @@ And add this new job (in scrape_configs section):
     - targets:
     - web-prometheus
 ```
-![View orchid](/rin-rin-blog/assets/images/azure/prometheus/prometheus-targets.png)
+![Prometheus Target](/rin-rin-blog/assets/images/azure/prometheus/prometheus-targets.png)
